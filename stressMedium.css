@@ -1,0 +1,632 @@
+.mediaViewInfo {
+	--web-view-name: stressMedium;
+	--web-view-id: stressMedium;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: height;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: stressMedium;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#stressMedium {
+	position: absolute;
+	width: 375px;
+	height: 812px;
+	background-color: rgba(156,168,243,1);
+	overflow: hidden;
+	--web-view-name: stressMedium;
+	--web-view-id: stressMedium;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: height;
+	--web-scale-on-resize: false;
+	--web-center-horizontally: false;
+	--web-enable-deep-linking: true;
+	left:550px;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Rectangle_50 {
+	fill: rgba(249,249,249,1);
+}
+.Rectangle_50 {
+	mix-blend-mode: luminosity;
+	position: absolute;
+	overflow: visible;
+	width: 375px;
+	height: 106px;
+	left: 0px;
+	top: 706px;
+}
+#Icon_ionic-md-fitness {
+	fill: rgba(69,61,61,1);
+}
+.Icon_ionic-md-fitness {
+	overflow: visible;
+	position: absolute;
+	width: 29.25px;
+	height: 29.25px;
+	left: 178px;
+	top: 731px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#__TEMP__SVG__ {
+	fill: rgba(69,61,61,1);
+}
+.__TEMP__SVG__ {
+	overflow: visible;
+	position: absolute;
+	width: 33px;
+	height: 33px;
+	left: 247px;
+	top: 729px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#comments-o {
+	fill: rgba(69,61,61,1);
+}
+.comments-o {
+	overflow: visible;
+	position: absolute;
+	width: 43px;
+	height: 33px;
+	left: 95px;
+	top: 730px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: iPhone_X__XS__11_Pro___72.html;
+	cursor: pointer;
+}
+#Icon_material-home {
+	fill: transparent;
+	stroke: rgba(69,61,61,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Icon_material-home {
+	overflow: visible;
+	position: absolute;
+	width: 37.64px;
+	height: 35.456px;
+	left: 311px;
+	top: 729.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_awesome-heart {
+	fill: rgba(108,124,227,1);
+}
+.Icon_awesome-heart {
+	overflow: visible;
+	position: absolute;
+	width: 33px;
+	height: 33px;
+	left: 30.624px;
+	top: 729.802px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: feelings.html;
+	cursor: pointer;
+}
+#Stress {
+	left: 145px;
+	top: 56px;
+	position: absolute;
+	overflow: visible;
+	width: 85px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: MS Reference Sans Serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	color: rgba(255,255,255,1);
+	letter-spacing: -0.24px;
+}
+#x {
+	position: absolute;
+	width: 18.004px;
+	height: 18.003px;
+	left: 38px;
+	top: 67px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: feelings.html;
+	cursor: pointer;
+}
+#Path_1 {
+	fill: rgba(255,255,255,1);
+}
+.Path_1 {
+	overflow: visible;
+	position: absolute;
+	width: 18.003px;
+	height: 18.003px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_2 {
+	fill: rgba(255,255,255,1);
+}
+.Path_2 {
+	overflow: visible;
+	position: absolute;
+	width: 18.003px;
+	height: 18.003px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_31 {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_31 {
+	position: absolute;
+	overflow: visible;
+	width: 375px;
+	height: 605px;
+	left: 0px;
+	top: 106px;
+}
+#Are_you_feeling_stressed {
+	left: 25px;
+	top: 183px;
+	position: absolute;
+	overflow: visible;
+	width: 339px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: MS Reference Sans Serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	color: rgba(0,0,0,1);
+	letter-spacing: -0.24px;
+}
+#Stress_Level {
+	left: 106px;
+	top: 343px;
+	position: absolute;
+	overflow: visible;
+	width: 165px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: MS Reference Sans Serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	color: rgba(0,0,0,1);
+	letter-spacing: -0.24px;
+}
+#Rectangle_35 {
+	fill: rgba(250,119,176,1);
+}
+.Rectangle_35 {
+	position: absolute;
+	overflow: visible;
+	width: 118px;
+	height: 47px;
+	left: 129px;
+	top: 466px;
+}
+#Line_29 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_29 {
+	overflow: visible;
+	position: absolute;
+	width: 73px;
+	height: 1px;
+	left: 32.5px;
+	top: 360.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_30 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_30 {
+	overflow: visible;
+	position: absolute;
+	width: 73px;
+	height: 1px;
+	left: 270.5px;
+	top: 360.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_36 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(247,20,119,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_36 {
+	position: absolute;
+	overflow: visible;
+	width: 118px;
+	height: 47px;
+	left: 129px;
+	top: 541px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: stressHigh.html;
+	cursor: pointer;
+}
+#Path_37 {
+	fill: rgba(156,168,243,1);
+}
+.Path_37 {
+	overflow: visible;
+	position: absolute;
+	width: 147px;
+	height: 47px;
+	left: 114px;
+	top: 638px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: feelings.html;
+	cursor: pointer;
+}
+#Rectangle_34 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(247,9,119,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_34 {
+	position: absolute;
+	overflow: visible;
+	width: 118px;
+	height: 47px;
+	left: 129px;
+	top: 395px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: stressLow.html;
+	cursor: pointer;
+}
+#Rectangle_32 {
+	fill: rgba(156,168,243,1);
+}
+.Rectangle_32 {
+	position: absolute;
+	overflow: visible;
+	width: 118px;
+	height: 47px;
+	left: 48px;
+	top: 264px;
+}
+#Rectangle_33 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(72,67,185,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_33 {
+	position: absolute;
+	overflow: visible;
+	width: 118px;
+	height: 47px;
+	left: 207px;
+	top: 264px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Stress.html;
+	cursor: pointer;
+}
+#Save {
+	left: 155px;
+	top: 642px;
+	position: absolute;
+	overflow: visible;
+	width: 67px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: feelings.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: MS Reference Sans Serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	color: rgba(255,255,255,1);
+	letter-spacing: -0.24px;
+}
+#No {
+	left: 246px;
+	top: 268px;
+	position: absolute;
+	overflow: visible;
+	width: 39px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Stress.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: MS Reference Sans Serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	color: rgba(72,67,185,1);
+	letter-spacing: -0.24px;
+}
+#Yes {
+	left: 82px;
+	top: 268px;
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: MS Reference Sans Serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	color: rgba(255,255,255,1);
+	letter-spacing: -0.24px;
+}
+#High {
+	left: 157px;
+	top: 545px;
+	position: absolute;
+	overflow: visible;
+	width: 63px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: stressHigh.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: MS Reference Sans Serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	color: rgba(247,20,119,1);
+	letter-spacing: -0.24px;
+}
+#Medium {
+	left: 135px;
+	top: 470px;
+	position: absolute;
+	overflow: visible;
+	width: 107px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: MS Reference Sans Serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	color: rgba(255,255,255,1);
+	letter-spacing: -0.24px;
+}
+#Low {
+	left: 161px;
+	top: 399px;
+	position: absolute;
+	overflow: visible;
+	width: 55px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: stressLow.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: MS Reference Sans Serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	color: rgba(247,20,119,1);
+	letter-spacing: -0.24px;
+}
+#Tab_3 {
+	position: absolute;
+	width: 134px;
+	height: 5px;
+	left: 121px;
+	top: 802px;
+	overflow: visible;
+}
+#Group {
+	position: absolute;
+	width: 134px;
+	height: 5px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Glyph {
+	position: absolute;
+	width: 134px;
+	height: 5px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Home_Indicator {
+	position: absolute;
+	width: 134px;
+	height: 5px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Home_Indicator_b {
+	fill: rgba(0,0,0,1);
+}
+.Home_Indicator_b {
+	position: absolute;
+	overflow: visible;
+	width: 134px;
+	height: 5px;
+	left: 0px;
+	top: 0px;
+}
+#Status_Bar {
+	position: absolute;
+	width: 375px;
+	height: 44px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Frame {
+	opacity: 0.001;
+	fill: rgba(255,255,255,1);
+}
+.Frame {
+	position: absolute;
+	overflow: visible;
+	width: 375px;
+	height: 44px;
+	left: 0px;
+	top: 0px;
+}
+#Status_Bar_b {
+	position: absolute;
+	width: 340px;
+	height: 18px;
+	left: 21px;
+	top: 13px;
+	overflow: visible;
+}
+#Battery {
+	position: absolute;
+	width: 24.328px;
+	height: 11.333px;
+	left: 315.672px;
+	top: 3.333px;
+	overflow: visible;
+}
+#Border {
+	opacity: 0.35;
+	fill: rgba(0,0,0,0);
+	stroke: rgba(0,0,0,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Border {
+	position: absolute;
+	overflow: visible;
+	width: 22px;
+	height: 11.333px;
+	left: 0px;
+	top: 0px;
+}
+#Cap {
+	opacity: 0.4;
+	fill: rgba(0,0,0,1);
+}
+.Cap {
+	overflow: visible;
+	position: absolute;
+	width: 1.328px;
+	height: 4px;
+	left: 23px;
+	top: 3.667px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Capacity {
+	fill: rgba(0,0,0,1);
+}
+.Capacity {
+	position: absolute;
+	overflow: visible;
+	width: 18px;
+	height: 7.333px;
+	left: 2px;
+	top: 2px;
+}
+#Wifi {
+	fill: rgba(0,0,0,1);
+}
+.Wifi {
+	overflow: visible;
+	position: absolute;
+	width: 15.333px;
+	height: 11px;
+	left: 295.339px;
+	top: 3.331px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Cellular_Connection {
+	fill: rgba(0,0,0,1);
+}
+.Cellular_Connection {
+	overflow: visible;
+	position: absolute;
+	width: 17px;
+	height: 10.667px;
+	left: 273.339px;
+	top: 3.667px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Time_Style {
+	position: absolute;
+	width: 54px;
+	height: 18px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Time {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 55px;
+	height: 18px;
+	text-align: center;
+	font-family: SF Pro Text;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+	letter-spacing: -0.2px;
+}

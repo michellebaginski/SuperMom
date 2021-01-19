@@ -1,0 +1,454 @@
+.mediaViewInfo {
+	--web-view-name: todayInsights;
+	--web-view-id: todayInsights;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: height;
+	--web-scale-on-resize: false;
+	--web-center-horizontally: false;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: todayInsights;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+
+.insightsHeader{
+	/* vertical-align: center; */
+	/* margin: auto; */
+	width: 380px;
+	height: 129px;
+
+	position: absolute;
+	/*left:532px*/
+	left:550px;
+	
+
+
+
+}
+
+
+#todayInsights {
+	position: absolute;
+	width: 375px;
+	height: 812px;
+	background-color: rgba(249,245,250,1);
+	overflow-x: hidden;
+	overflow-y: auto;
+	--web-view-name: todayInsights;
+	--web-view-id: todayInsights;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: height;
+	--web-scale-on-resize: false;
+	--web-center-horizontally: false;
+	--web-enable-deep-linking: true;
+	left:550px;
+	
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Rectangle_50 {
+	fill: rgba(249,249,249,1);
+}
+.Rectangle_50 {
+	mix-blend-mode: luminosity;
+	position: absolute;
+	overflow: visible;
+	width: 375px;
+	height: 106px;
+	left: 0px;
+	top: 664px;
+}
+#Rectangle_42 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_42 {
+	position: absolute;
+	overflow: visible;
+	width: 305px;
+	height: 147px;
+	left: 35px;
+	top: 415px;
+}
+#Rectangle_43 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_43 {
+	position: absolute;
+	overflow: visible;
+	width: 305px;
+	height: 147px;
+	left: 35px;
+	top: 632px;
+}
+#You_logged_in_low_level_of_str {
+	left: 24px;
+	top: 379px;
+	position: absolute;
+	overflow: visible;
+	width: 323px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(98,87,87,1);
+	letter-spacing: -0.24px;
+}
+#Rectangle_39 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_39 {
+	position: absolute;
+	overflow: visible;
+	width: 305px;
+	height: 147px;
+	left: 35px;
+	top: 198px;
+}
+#You_logged_in_5_hours_of_sleep {
+	left: 24px;
+	top: 585px;
+	position: absolute;
+	overflow: visible;
+	width: 305px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(98,87,87,1);
+	letter-spacing: -0.24px;
+}
+#Youre_feeling_tired_and_anxiou {
+	left: 24px;
+	top: 152px;
+	position: absolute;
+	overflow: visible;
+	width: 317px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(98,87,87,1);
+	letter-spacing: -0.24px;
+}
+#You_can_try_to_do_yoga_under_f {
+	left: 46px;
+	top: 424px;
+	position: absolute;
+	overflow: visible;
+	width: 285px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 18px;
+	color: rgba(98,87,87,1);
+	letter-spacing: -0.24px;
+}
+#Patterns_ {
+	left: 24px;
+	top: 795px;
+	position: absolute;
+	overflow: visible;
+	width: 93px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	color: rgba(98,87,87,1);
+	letter-spacing: -0.24px;
+}
+#Rectangle_46 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_46 {
+	position: absolute;
+	overflow: visible;
+	width: 305px;
+	height: 165px;
+	left: 35px;
+	top: 832px;
+}
+#Studies_shows_that_adults_need {
+	left: 46px;
+	top: 640px;
+	position: absolute;
+	overflow: visible;
+	width: 285px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 18px;
+	color: rgba(98,87,87,1);
+	letter-spacing: -0.24px;
+}
+#Try_to_take_a_nap_today_and_ta {
+	left: 46px;
+	top: 211px;
+	position: absolute;
+	overflow: visible;
+	width: 284px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 18px;
+	color: rgba(98,87,87,1);
+	letter-spacing: -0.24px;
+}
+#gradientHeader_bi {
+	fill: url(#gradientHeader_bi);
+}
+.gradientHeader_bi {
+	filter: drop-shadow(0px 3px 6px rgba(217, 198, 237, 0.78));
+	position: absolute;
+	/*overflow: hidden;  */
+	width: 393px;
+	height: 139px;
+	left: 0px;
+	top: 0px;
+	margin:0px auto;
+}
+
+
+
+#Status_Bar {
+	position: absolute;
+	width: 375px;
+	height: 44px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Frame {
+	opacity: 0.001;
+	fill: rgba(255,255,255,1);
+}
+.Frame {
+	position: absolute;
+	overflow: visible;
+	width: 375px;
+	height: 44px;
+	left: 0px;
+	top: 0px;
+}
+#Status_Bar_bl {
+	position: absolute;
+	width: 340px;
+	height: 18px;
+	left: 21px;
+	top: 13px;
+	overflow: visible;
+}
+#Battery {
+	position: absolute;
+	width: 24.328px;
+	height: 11.333px;
+	left: 315.672px;
+	top: 3.333px;
+	overflow: visible;
+}
+#Border {
+	opacity: 0.35;
+	fill: rgba(0,0,0,0);
+	stroke: rgba(0,0,0,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Border {
+	position: absolute;
+	overflow: visible;
+	width: 22px;
+	height: 11.333px;
+	left: 0px;
+	top: 0px;
+}
+#Cap {
+	opacity: 0.4;
+	fill: rgba(0,0,0,1);
+}
+.Cap {
+	overflow: visible;
+	position: absolute;
+	width: 1.328px;
+	height: 4px;
+	left: 23px;
+	top: 3.667px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Capacity {
+	fill: rgba(0,0,0,1);
+}
+.Capacity {
+	position: absolute;
+	overflow: visible;
+	width: 18px;
+	height: 7.333px;
+	left: 2px;
+	top: 2px;
+}
+#Wifi {
+	fill: rgba(0,0,0,1);
+}
+.Wifi {
+	overflow: visible;
+	position: absolute;
+	width: 15.333px;
+	height: 11px;
+	left: 295.339px;
+	top: 3.331px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Cellular_Connection {
+	fill: rgba(0,0,0,1);
+}
+.Cellular_Connection {
+	overflow: visible;
+	position: absolute;
+	width: 17px;
+	height: 10.667px;
+	left: 273.339px;
+	top: 3.667px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Time_Style {
+	position: absolute;
+	width: 54px;
+	height: 18px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Time {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 55px;
+	height: 18px;
+	text-align: center;
+	font-family: SF Pro Text;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+	letter-spacing: -0.2px;
+}
+#Todays_Insights {
+	left: 80px;
+	top: 68px;
+	position: absolute;
+	overflow: visible;
+	width: 217px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: MS Reference Sans Serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	color: rgba(255,255,255,1);
+	letter-spacing: -0.24px;
+}
+#Pattern_has_been_picked_up_tha {
+	left: 46px;
+	top: 842px;
+	position: absolute;
+	overflow: visible;
+	width: 276px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 18px;
+	color: rgba(98,87,87,1);
+	letter-spacing: -0.24px;
+}
+#x {
+	position: absolute;
+	width: 18.004px;
+	height: 18.003px;
+	left: 30px;
+	top: 56px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: feelings.html;
+	cursor: pointer;
+}
+#Path_1 {
+	fill: rgba(255,255,255,1);
+}
+.Path_1 {
+	overflow: visible;
+	position: absolute;
+	width: 18.003px;
+	height: 18.003px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_2 {
+	fill: rgba(255,255,255,1);
+}
+.Path_2 {
+	overflow: visible;
+	position: absolute;
+	width: 18.003px;
+	height: 18.003px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
